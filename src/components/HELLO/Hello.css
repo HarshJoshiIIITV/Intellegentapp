@@ -1,0 +1,114 @@
+.input_hello {
+	background: none;
+	border: none;
+	border-bottom: 1.5px solid white;
+	outline: none;
+	font-weight: bold;
+	color: white;
+}
+
+.Collapsible__contentInner {
+	padding: 5px;
+	border: none;
+	border-top: 0;
+	padding-bottom: 10px;
+	background: -webkit-linear-gradient(
+		to right,
+		#a43931,
+		#1d4350
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #a43931, #1d4350);
+}
+
+.Collapsible__contentInner p {
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.Collapsible__contentInner p:last-child {
+	margin-bottom: 0;
+}
+
+.Collapsible__trigger {
+	display: block;
+	font-weight: 500;
+	text-decoration: none;
+	color: grey;
+	position: relative;
+	border: none;
+	padding: 8px 8px 8px 0px;
+	background: #1d4350; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#a43931,
+		#1d4350
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		rgb(164, 57, 49, 0.5),
+		rgb(29, 67, 80, 0.5)
+	);
+	font-family: 'Montserrat', sans-serif;
+	color: #2a2c2b;
+	font-size: 15px;
+}
+
+.Collapsible__trigger.is-closed {
+	font-weight: 500;
+
+	border-radius: 4px;
+}
+
+.Collapsible__trigger.is-open {
+	font-weight: 500;
+
+	border-radius: 4px;
+}
+
+.Collapsible__trigger:after {
+	font-family: 'FontAwesome';
+	content: '\f107';
+	position: absolute;
+	right: 10px;
+	color: white;
+	font-size: 21px;
+	top: 10px;
+	display: block;
+	transition: transform 300ms;
+}
+
+.Collapsible__trigger.is-open:after {
+	transform: rotateZ(180deg);
+}
+
+.Collapsible__trigger.is-disabled {
+	opacity: 0.5;
+	background-color: grey;
+}
+
+.CustomTriggerCSS {
+	background-color: lightcoral;
+	transition: background-color 200ms ease;
+}
+
+.CustomTriggerCSS--open {
+	background-color: darkslateblue;
+}
+
+.Collapsible__custom-sibling {
+	padding: 5px;
+	font-size: 12px;
+	background-color: #cbb700;
+	color: black;
+}
+
+.input_helloy {
+	background: none;
+	border: 1.5px solid white;
+	border-radius: 10px;
+	padding: 8px;
+	outline: none;
+	font-weight: bold;
+	color: white;
+}

@@ -1,0 +1,22 @@
+.form {
+	width: 100%;
+	margin: 10px auto;
+}
+
+p {
+	color: white;
+}
+
+input::placeholder {
+	color: white;
+}
+
+.home Button {
+	box-shadow: none !important;
+}
+
+.usage p {
+	margin-bottom: 0px;
+	font-size: 14px;
+	font-style: italic;
+}

@@ -1,0 +1,37 @@
+.sidebar Button {
+	display: block;
+	margin: 0 10px 0 10px;
+	margin-left: 0px;
+	width: 100%;
+	padding: 8px;
+	background: none;
+	outline: none !important;
+	border: none !important;
+	text-decoration: none !important;
+}
+
+.sidebar Button:hover,
+.sidebar Button:focus,
+.sidebar Button:active {
+	background-color: #343a40 !important;
+	box-shadow: none !important;
+	border: none !important;
+	outline: none !important;
+}
+
+.color_grad {
+	z-index: 10;
+	background: #aa4b6b; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#3b8d99,
+		#6b6b83,
+		#aa4b6b
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#3b8d99,
+		#6b6b83,
+		#aa4b6b
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

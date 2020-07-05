@@ -1,0 +1,21 @@
+.color_grad2 {
+	background: #1d4350; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#a43931,
+		#1d4350
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		rgb(164, 57, 49, 0.6),
+		rgb(29, 67, 80, 0.6)
+	);
+}
+
+.color_grad3 {
+	background: #1d4350; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #a43931, #1d4350);
+}
