@@ -29,7 +29,7 @@ class Sidebar extends Component {
 							marginBottom: '0px',
 						}}
 					>
-						Intelligent IQ
+						IntelligenceQ
 					</p>
 					<Button
 						style={{ paddingTop: '20px' }}
