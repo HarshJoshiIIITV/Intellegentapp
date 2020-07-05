@@ -27,7 +27,7 @@ class Home extends Component {
 			flag: 'no',
 			entry: props.entries,
 		};
-		console.log(this.state.image_url);
+		// console.log(this.state.image_url);
 	}
 	setButton = (e) => {
 		this.setState({

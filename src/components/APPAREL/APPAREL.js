@@ -17,9 +17,10 @@ class APPAREL extends Component {
 				}}
 			>
 				{resp &&
-					resp.map((response) => {
+					resp.map((response, i) => {
 						return (
 							<div
+								key={i}
 								style={{
 									background: 'rgba(0,0,0,0.4)',
 									margin: '8px',

@@ -20,8 +20,8 @@ class IMAGE extends Component {
 				{resp != 'no' &&
 					target != 'Predict Color' &&
 					target != 'Predict NSFW' &&
-					resp.map((resp_box) => {
-						return <IMAGEBOX single_resp={resp_box} />;
+					resp.map((resp_box, i) => {
+						return <IMAGEBOX key={i} single_resp={resp_box} />;
 					})}
 			</div>
 		);

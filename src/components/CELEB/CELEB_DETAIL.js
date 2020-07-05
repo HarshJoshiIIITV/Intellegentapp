@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class CELEB_DETAIL extends Component {
 	render() {
 		const { resp } = this.props;
-		console.log('in CLEB DETAIL', resp);
+		// console.log('in CLEB DETAIL', resp);
 		let name = null;
 		let value = null;
 		if (resp) {

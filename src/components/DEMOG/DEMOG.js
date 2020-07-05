@@ -5,7 +5,7 @@ import DEMOG_DETAIL from './DEMOG_DETAIL';
 class DEMOG extends Component {
 	render() {
 		const { resp } = this.props;
-		console.log(resp);
+		// console.log(resp);
 
 		return (
 			<div
@@ -19,8 +19,8 @@ class DEMOG extends Component {
 				}}
 			>
 				{resp &&
-					resp.map((response) => {
-						return <DEMOG_DETAIL resp={response} />;
+					resp.map((response, i) => {
+						return <DEMOG_DETAIL key={i} resp={response} />;
 					})}
 			</div>
 		);

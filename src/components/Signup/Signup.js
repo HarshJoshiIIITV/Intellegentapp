@@ -24,7 +24,7 @@ class Signup extends Component {
 				this.state
 			)
 			.then((resp) => {
-				console.log(resp.data);
+				// console.log(resp.data);
 				this.props.changeRoute(resp.data.id, resp.data.entries);
 			})
 			.catch((err) => {

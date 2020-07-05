@@ -4,7 +4,7 @@ import CELEB_DETAIL from './CELEB_DETAIL';
 class CELEB extends Component {
 	render() {
 		const { resp } = this.props;
-		console.log(resp);
+		// console.log(resp);
 		const name = resp[0].data.concepts[0].name;
 		const value = resp[0].data.concepts[0].value;
 
@@ -20,9 +20,10 @@ class CELEB extends Component {
 				}}
 			>
 				{resp &&
-					resp.map((response) => {
+					resp.map((response, i) => {
 						return (
 							<div
+								key={i}
 								style={{
 									background: 'rgba(0,0,0,0.4)',
 									margin: '8px',

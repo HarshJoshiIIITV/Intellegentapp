@@ -3,7 +3,7 @@ import IMAGE from '../IMAGE/IMAGE';
 class FACE extends Component {
 	render() {
 		const { resp } = this.props;
-		console.log(resp);
+		// console.log(resp);
 		return (
 			<div
 				className='color_grad2'
