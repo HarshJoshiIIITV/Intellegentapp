@@ -13,7 +13,7 @@ import CELEB from './CELEB/CELEB';
 import axios from 'axios';
 
 const app = new Clarifai.App({
-	apiKey: process.env.API_CLARIFAI,
+	apiKey: 'c19d61f4dec64d6182c853edea4bff57',
 });
 
 class Home extends Component {
